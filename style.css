@@ -1,1 +1,124 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+
+/* common button */
+.common_btn{
+    color: white;
+    background: #7700ff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid #7700ff;
+    
+}
+.common_btn:hover{
+    transition: color 0.3s ease-out, background 0.3s ease-out;
+    color: #7700ff;
+    background:white ;
+    border: 2px solid #7700ff;
+}
+
+/* header start */
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 20px 100px;
+    
+
+}
+
+#header h2, li{
+    font-size:1.5rem;
+    color: rgb(39, 42, 42);
+}
+#header h2 span{
+    color:#7700ff;
+}
+
+#header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#header nav ul li{
+    list-style: none;
+}
+#header nav ul li a{
+    text-decoration: none;
+    all: unset;
+    cursor: pointer;
+}
+#header nav ul li a:hover{
+    color:rgb(120, 120, 120);
+}
+#header nav ul li a:active{
+    color:#7700ff;
+}
+/* header end */
+
+/* Home start */
+#home{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+#home .left_section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+#home .left_section a{
+    height: 30px;
+    width:30px;
+    margin: 15px 0px 15px auto;
+}
+
+#home .right_section{
+    display: flex;
+    max-width: 1200px;
+    place-items: center;
+}
+
+#home .right_section .left_text{
+    padding-left: 50px;
+}
+
+#home .right_section .left_text .hi{
+    font-size: 3rem;
+    font-weight:900;
+}
+#home .right_section .left_text .intro_text{
+    font-size: 1.2rem;
+    color:#757575;
+    line-height: 2rem;
+}
+#home .right_section .left_text .intro_tex,p,button{
+    margin: 15px;
+}
+
+/* right pic */
+
+#home .right_section .right_pic img{
+    height: 500px;
+    position:relative;
+    right: -70px;
+}
+/* Home end */
+
