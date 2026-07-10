@@ -122,3 +122,53 @@
 }
 /* Home end */
 
+/* about section start */
+#about{
+    width: 100vw;
+    height: 100vh;
+    padding: 60px 0px;
+}
+.about_container{
+    max-width: 1200px;
+    margin:0px auto;
+}
+.about_container h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 15px;
+}
+.about_container .about_info_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about_container img{
+    height: 400px; 
+    align-self: center;
+}
+.about_container .right_about_info {
+    margin-left: 100px;
+}
+.about_container .right_about_info p{
+    text-align: justify;
+    color: #4a4a4a;
+}
+.about_container .right_about_info div{
+    display: flex;
+    justify-content: space-around;
+}
+.about_container .right_about_info div .statics{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.about_container .right_about_info div .statics p{
+    margin-top: -15px;
+    text-align: center;
+}
+/* about section end */
+
+/* skill section start */
+
+/* skill section end */
